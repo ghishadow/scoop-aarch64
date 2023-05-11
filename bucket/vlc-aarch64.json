@@ -9,7 +9,7 @@
             "hash": "55a95973db1cee965a569cecfccabed8dfb128fea26826abec7e95fc9e4def3d"
         },
     },
-    "extract_dir": "vlc-4.0.0-dev-win64-38a99dfc",
+    "extract_dir": "vlc-4.0.0-dev",
 
     "bin": "vlc.exe",
     "shortcuts": [
