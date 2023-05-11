@@ -10,14 +10,7 @@
         },
     },
     "extract_dir": "vlc-4.0.0-dev-win64-38a99dfc",
-    "pre_install": [
-        "if (!(Test-Path \"$persist_dir\\portable\") -and (Test-Path \"$env:APPDATA\\vlc\")) {",
-        "    info \"Copying old '$env:APPDATA\\vlc' to '$persist_dir\\portable'\"",
-        "    ensure \"$dir\\portable\\vlc\" | Out-Null",
-        "    Copy-Item \"$env:APPDATA\\vlc\\*\" \"$dir\\portable\" -Recurse -Force",
-        "    Move-Item \"$dir\\portable\\vlc-qt-interface.ini\" \"$dir\\portable\\vlc\"",
-        "}"
-    ],
+
     "bin": "vlc.exe",
     "shortcuts": [
         [
@@ -25,7 +18,6 @@
             "VLC media player"
         ]
     ],
-    "persist": "portable",
     "checkver": {
         "url": "https://www.videolan.org/vlc/download-windows.html",
         "regex": "\\s+([\\d.]+)</span>"
