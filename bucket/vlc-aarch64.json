@@ -34,7 +34,7 @@
     "autoupdate": {
         "architecture": {
             "arm64": {
-                "url": "https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/$version/vlc-$version-win64-38a99dfc.7z"
+                "url": "https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/$version/vlc-$version-win64-38a99dfc.7z",
         },
         "hash": {
             "url": "$url.sha256"
