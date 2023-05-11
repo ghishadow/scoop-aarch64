@@ -6,7 +6,7 @@
     "architecture": {
         "arm64": {
             "url": "https://artifacts.videolan.org/vlc/nightly-win64-arm-llvm/20230510-0424/vlc-4.0.0-dev-win64-38a99dfc.7z",
-            "hash": "6f896c35e48c6efb28ed65d717c66b50ded1c316580cc7a90cab0aaccd2a6a9f"
+            "hash": "55a95973db1cee965a569cecfccabed8dfb128fea26826abec7e95fc9e4def3d"
         },
     },
     "extract_dir": "vlc-3.0.18",
