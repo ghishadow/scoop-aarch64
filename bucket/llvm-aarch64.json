@@ -1,12 +1,12 @@
 {
-    "version": "17.0.6",
+    "version": "18.1.1",
     "description": "Collection of modular and reusable compiler and toolchain technologies.",
     "homepage": "https://www.llvm.org",
     "license": "NCSA",
     "architecture": {
         "arm64": {
-            "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-17.0.6/LLVM-17.0.6-woa64.exe#/dl.7z",
-            "hash": "1efda890c79d597fb9e9c1ae62ececf53e9b56b979b1e37234b5c8dac56461fe"
+            "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-18.1.1/LLVM-18.1.1-woa64.exe#/dl.7z",
+            "hash": "26260703988807e0a40ce726a16a396a7f45b02947415b85be40f3ed0d4db9a3"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall.exe\" -Recurse",
