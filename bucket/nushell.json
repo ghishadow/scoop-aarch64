@@ -1,12 +1,12 @@
 {
-    "version": "0.91.0",
+    "version": "0.92.0",
     "description": "A modern shell written in Rust",
     "homepage": "https://www.nushell.sh",
     "license": "MIT",
     "architecture": {
         "arm64": {
-            "url": "https://github.com/nushell/nushell/releases/download/0.91.0/nu-0.91.0-aarch64-pc-windows-msvc.zip",
-            "hash": "a56381bba889e58dfd08c6b251296b2f85034f608da4f425bdf34501b26e8a12"
+            "url": "https://github.com/nushell/nushell/releases/download/0.92.0/nu-0.92.0-aarch64-pc-windows-msvc.zip",
+            "hash": "7127d099d2f60a9bad68f10bba8eec1b5d68199aeb8804d56ec8caf00c5e23ae"
         }
     },
     "bin": "nu.exe",
