@@ -6,8 +6,6 @@
         "identifier": "Freeware",
         "url": "https://docs.microsoft.com/en-us/sysinternals/license-terms"
     },
-    "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
-    "hash": "1284b653340c60086399c4e57b5a42ffef6b55415cf0a28e305b77750392ac32",
     "checkver": {
         "script": [
             "$resp = Invoke-WebRequest 'https://techcommunity.microsoft.com/plugins/custom/microsoft/o365/custom-blog-rss?board=Sysinternals-Blog'",
@@ -29,596 +27,307 @@
     },
     "architecture": {
         "arm64": {
+            "url": "https://download.sysinternals.com/files/SysinternalsSuite-ARM64.zip",
+            "hash": "59d07e68cadc8f5c7f3fd1d88b5334b778bd2e36cd6a2276088845d9a4999e81",
             "bin": [
                 [
-                    "accesschk64.exe",
+                    "accesschk64a.exe",
                     "accesschk"
                 ],
-                "accesschk64.exe",
-                "AccessEnum.exe",
-                "ADExplorer.exe",
-                "ADInsight.exe",
-                "adrestore.exe",
-                "Autologon.exe",
+                "accesschk64a.exe",
+                "ADExplorer64a.exe",
+                "ADInsight64a.exe",
+                "adrestore64a.exe",
+                "Autologon64a.exe",
                 [
-                    "Autoruns64.exe",
+                    "Autoruns64a.exe",
                     "Autoruns"
                 ],
-                "Autoruns64.exe",
+                "Autoruns64a.exe",
                 [
-                    "autorunsc64.exe",
+                    "autorunsc64a.exe",
                     "autorunsc"
                 ],
-                "autorunsc64.exe",
+                "autorunsc64a.exe",
                 [
-                    "Bginfo64.exe",
-                    "Bginfo"
-                ],
-                "Bginfo64.exe",
-                "Cacheset.exe",
-                [
-                    "Clockres64.exe",
+                    "Clockres64a.exe",
                     "Clockres"
                 ],
-                "Clockres64.exe",
+                "Clockres64a.exe",
                 [
-                    "Contig64.exe",
+                    "Contig64a.exe",
                     "Contig"
                 ],
-                "Contig64.exe",
-                "Coreinfo.exe",
-                "ctrl2cap.exe",
-                "Dbgview.exe",
-                "Desktops.exe",
+                "Contig64a.exe",
+                "Coreinfo64a.exe",
+                "Dbgview64a.exe",
                 [
-                    "disk2vhd64.exe",
+                    "disk2vhd64a.exe",
                     "disk2vhd"
                 ],
-                "disk2vhd64.exe",
+                "disk2vhd64a.exe",
                 [
-                    "diskext64.exe",
+                    "diskext64a.exe",
                     "diskext"
                 ],
-                "diskext64.exe",
-                "Diskmon.exe",
-                "DiskView.exe",
+                "diskext64a.exe",
+                "DiskView64a.exe",
                 [
-                    "du64.exe",
+                    "du64a.exe",
                     "du"
                 ],
-                "du64.exe",
-                "efsdump.exe",
+                "du64a.exe",
                 [
-                    "FindLinks64.exe",
+                    "FindLinks64a.exe",
                     "FindLinks"
                 ],
-                "FindLinks64.exe",
+                "FindLinks64a.exe",
                 [
-                    "handle64.exe",
+                    "handle64a.exe",
                     "handle"
                 ],
-                "handle64.exe",
+                "handle64a.exe",
                 [
-                    "hex2dec64.exe",
+                    "hex2dec64a.exe",
                     "hex2dec"
                 ],
-                "hex2dec64.exe",
+                "hex2dec64a.exe",
                 [
-                    "junction64.exe",
+                    "junction64a.exe",
                     "junction"
                 ],
-                "junction64.exe",
-                "ldmdump.exe",
+                "junction64a.exe",
+                "LoadOrd64a.exe",
                 [
-                    "Listdlls64.exe",
-                    "Listdlls"
-                ],
-                "Listdlls64.exe",
-                [
-                    "livekd64.exe",
-                    "livekd"
-                ],
-                "livekd64.exe",
-                [
-                    "LoadOrd64.exe",
-                    "LoadOrd"
-                ],
-                "LoadOrd64.exe",
-                [
-                    "LoadOrdC64.exe",
+                    "LoadOrdC64a.exe",
                     "LoadOrdC"
                 ],
-                "LoadOrdC64.exe",
+                "LoadOrdC64a.exe",
                 [
-                    "logonsessions64.exe",
+                    "logonsessions64a.exe",
                     "logonsessions"
                 ],
-                "logonsessions64.exe",
+                "logonsessions64a.exe",
                 [
-                    "movefile64.exe",
+                    "movefile64a.exe",
                     "movefile"
                 ],
-                "movefile64.exe",
+                "movefile64a.exe",
                 [
-                    "notmyfault64.exe",
+                    "notmyfault64a.exe",
                     "notmyfault"
                 ],
-                "notmyfault64.exe",
+                "notmyfault64a.exe",
                 [
-                    "notmyfaultc64.exe",
+                    "notmyfaultc64a.exe",
                     "notmyfaultc"
                 ],
-                "notmyfaultc64.exe",
+                "notmyfaultc64a.exe",
+                "pendmoves64a.exe",
                 [
-                    "ntfsinfo64.exe",
-                    "ntfsinfo"
-                ],
-                "ntfsinfo64.exe",
-                [
-                    "pendmoves64.exe",
-                    "pendmoves"
-                ],
-                "pendmoves64.exe",
-                [
-                    "pipelist64.exe",
+                    "pipelist64a.exe",
                     "pipelist"
                 ],
-                "pipelist64.exe",
-                "portmon.exe",
+                "pipelist64a.exe",
                 [
-                    "procdump64.exe",
+                    "procdump64a.exe",
                     "procdump"
                 ],
-                "procdump64.exe",
+                "procdump64a.exe",
                 [
-                    "procexp64.exe",
+                    "procexp64a.exe",
                     "procexp"
                 ],
-                "procexp64.exe",
-                "Procmon.exe",
+                "procexp64a.exe",
                 [
-                    "PsExec64.exe",
+                    "Procmon64a.exe",
+                    "Procmon"
+                ],
+                "Procmon64a.exe",
+                [
+                    "PsExec64a.exe",
                     "PsExec"
                 ],
-                "PsExec64.exe",
+                "PsExec64a.exe",
                 [
-                    "psfile64.exe",
+                    "psfile64a.exe",
                     "psfile"
                 ],
-                "psfile64.exe",
+                "psfile64a.exe",
                 [
-                    "PsGetsid64.exe",
+                    "PsGetsid64a.exe",
                     "PsGetsid"
                 ],
-                "PsGetsid64.exe",
+                "PsGetsid64a.exe",
                 [
-                    "PsInfo64.exe",
+                    "PsInfo64a.exe",
                     "PsInfo"
                 ],
-                "PsInfo64.exe",
+                "PsInfo64a.exe",
                 [
-                    "pskill64.exe",
+                    "pskill64a.exe",
                     "pskill"
                 ],
-                "pskill64.exe",
+                "pskill64a.exe",
                 [
-                    "pslist64.exe",
+                    "pslist64a.exe",
                     "pslist"
                 ],
-                "pslist64.exe",
                 [
-                    "PsLoggedon64.exe",
-                    "PsLoggedon"
+                    "pslist64a.exe",
+                    "pslist"
                 ],
-                "PsLoggedon64.exe",
-                "psloglist.exe",
+                "pslist64a.exe",
+                "psloglist64a.exe",
                 [
-                    "pspasswd64.exe",
+                    "pspasswd64a.exe",
                     "pspasswd"
                 ],
-                "pspasswd64.exe",
+                "pspasswd64a.exe",
                 [
-                    "psping64.exe",
+                    "psping64a.exe",
                     "psping"
                 ],
-                "psping64.exe",
+                "psping64a.exe",
                 [
-                    "PsService64.exe",
+                    "PsService64a.exe",
                     "PsService"
                 ],
-                "PsService64.exe",
-                "psshutdown.exe",
+                "PsService64a.exe",
+                "pssuspend64a.exe",
+                "RAMMap64a.exe",
+                "RegDelNull64a.exe",
                 [
-                    "pssuspend64.exe",
-                    "pssuspend"
-                ],
-                "pssuspend64.exe",
-                "RAMMap.exe",
-                "RDCMan.exe",
-                [
-                    "RegDelNull64.exe",
-                    "RegDelNull"
-                ],
-                "RegDelNull64.exe",
-                "regjump.exe",
-                [
-                    "ru64.exe",
+                    "ru64a.exe",
                     "ru"
                 ],
-                "ru64.exe",
+                "ru64a.exe",
                 [
-                    "sdelete64.exe",
+                    "sdelete64a.exe",
                     "sdelete"
                 ],
-                "sdelete64.exe",
-                "ShareEnum.exe",
-                "ShellRunas.exe",
+                "sdelete64a.exe",
                 [
-                    "sigcheck64.exe",
+                    "sigcheck64a.exe",
                     "sigcheck"
                 ],
-                "sigcheck64.exe",
+                "sigcheck64a.exe",
                 [
-                    "streams64.exe",
+                    "streams64a.exe",
                     "streams"
                 ],
-                "streams64.exe",
+                "streams64a.exe",
                 [
-                    "strings64.exe",
+                    "strings64a.exe",
                     "strings"
                 ],
-                "strings64.exe",
+                "strings64a.exe",
                 [
-                    "sync64.exe",
+                    "sync64a.exe",
                     "sync"
                 ],
-                "sync64.exe",
+                "sync64a.exe",
                 [
-                    "Sysmon64.exe",
+                    "Sysmon64a.exe",
                     "Sysmon"
                 ],
-                "Sysmon64.exe",
-                "Tcpvcon.exe",
-                "Tcpview.exe",
+                "Sysmon64a.exe",
+                "Tcpvcon64a.exe",
+                "Tcpview64a.exe",
+                "vmmap64a.exe",
                 [
-                    "Testlimit64.exe",
-                    "Testlimit"
-                ],
-                "Testlimit64.exe",
-                "vmmap.exe",
-                [
-                    "Volumeid64.exe",
-                    "Volumeid"
-                ],
-                "Volumeid64.exe",
-                [
-                    "whois64.exe",
+                    "whois64a.exe",
                     "whois"
                 ],
-                "whois64.exe",
-                "Winobj.exe",
-                "ZoomIt.exe"
+                "whois64a.exe",
+                "Winobj64a.exe",
+                "ZoomIt64a.exe"
             ],
             "shortcuts": [
                 [
-                    "AccessEnum.exe",
-                    "SysInternals/AccessEnum - View accesses to directories, files and registry keys",
-                    "/accepteula"
-                ],
-                [
-                    "AdExplorer.exe",
+                    "AdExplorer64a.exe",
                     "SysInternals/AdExplorer - Active Directory viewer and editor",
                     "/accepteula"
                 ],
                 [
-                    "AdInsight.exe",
+                    "AdInsight64a.exe",
                     "SysInternals/AdInsight - An LDAP real-time monitoring tool",
                     "/accepteula"
                 ],
                 [
-                    "Autologon.exe",
+                    "Autologon64a.exe",
                     "SysInternals/Autologon - Bypass password screen during logon",
                     "/accepteula"
                 ],
                 [
-                    "autoruns64.exe",
+                    "autoruns64a.exe",
                     "SysInternals/Autoruns - View startup programs and processes"
                 ],
                 [
-                    "Bginfo64.exe",
-                    "SysInternals/BGInfo - Wallpaper text configurator",
-                    "/accepteula"
-                ],
-                [
-                    "CACHESET.EXE",
-                    "SysInternals/CacheSet - Control the Cache Manager's working set size",
-                    "/accepteula"
-                ],
-                [
-                    "Dbgview.exe",
+                    "Dbgview64a.exe",
                     "SysInternals/DebugView - View OutputDebugString and DbgPrint output",
                     "/accepteula"
                 ],
                 [
-                    "Desktops.exe",
-                    "SysInternals/Desktops - Create up to four virtual desktops",
-                    "/accepteula"
-                ],
-                [
-                    "Disk2vhd64.exe",
+                    "Disk2vhd64a.exe",
                     "SysInternals/Disk2vhd - Create VHD files from online disk",
                     "/accepteula"
                 ],
                 [
-                    "Diskmon.exe",
-                    "SysInternals/DiskMon - Disk activity monitor",
-                    "/accepteula"
-                ],
-                [
-                    "DiskView.exe",
+                    "DiskView64a.exe",
                     "SysInternals/DiskView - Graphical disk sector utility",
                     "/accepteula"
                 ],
                 [
-                    "LOADORD.EXE",
+                    "LOADORD64a.EXE",
                     "SysInternals/LoadOrder - See the order in which devices are loaded",
                     "/accepteula"
                 ],
                 [
-                    "NotMyFault64.exe",
+                    "NotMyFault64a.exe",
                     "SysInternals/NotMyFault - Crash, hang, and cause kernel memory leaks",
                     "/accepteula"
                 ],
                 [
-                    "PORTMON.EXE",
-                    "SysInternals/PortMon - Serial and parallel port activity monitor",
-                    "/accepteula"
-                ],
-                [
-                    "procexp64.exe",
+                    "procexp64a.exe",
                     "SysInternals/ProcessExplorer - Enhanced Task Manager",
                     "/accepteula"
                 ],
                 [
-                    "ProcMon.exe",
+                    "ProcMon64a.exe",
                     "SysInternals/ProcessMonitor - Monitor file system, registry, process, thread and DLL activity",
                     "/accepteula"
                 ],
                 [
-                    "RAMMap.exe",
+                    "RAMMap64a.exe",
                     "SysInternals/RAMMap - Graphical display of memory usage",
                     "/accepteula"
                 ],
                 [
-                    "RDCMan.exe",
-                    "SysInternals/RDCMan - Remote Desktop Connection Manager"
-                ],
-                [
-                    "ShareEnum.exe",
-                    "SysInternals/ShareEnum - View network shares",
-                    "/accepteula"
-                ],
-                [
-                    "Tcpview.exe",
+                    "Tcpview64a.exe",
                     "SysInternals/TcpView - List TCP UDP endpoints",
                     "/accepteula"
                 ],
                 [
-                    "vmmap.exe",
+                    "vmmap64a.exe",
                     "SysInternals/VMMap - View Virtual and Physical Memory",
                     "/accepteula"
                 ],
                 [
-                    "Winobj.exe",
+                    "Winobj64a.exe",
                     "SysInternals/Winobj - Object Manager namespace viewer",
                     "/accepteula"
                 ],
                 [
-                    "ZoomIt.exe",
+                    "ZoomIt64a.exe",
                     "SysInternals/ZoomIt - Screen magnifier for zooming and drawing on the screen",
                     "/accepteula"
                 ]
             ]
         },
-        "32bit": {
-            "bin": [
-                "accesschk.exe",
-                "AccessEnum.exe",
-                "ADExplorer.exe",
-                "ADInsight.exe",
-                "adrestore.exe",
-                "Autologon.exe",
-                "Autoruns.exe",
-                "autorunsc.exe",
-                "Bginfo.exe",
-                "Cacheset.exe",
-                "Clockres.exe",
-                "Contig.exe",
-                "Coreinfo.exe",
-                "ctrl2cap.exe",
-                "Dbgview.exe",
-                "Desktops.exe",
-                "disk2vhd.exe",
-                "diskext.exe",
-                "Diskmon.exe",
-                "DiskView.exe",
-                "du.exe",
-                "efsdump.exe",
-                "FindLinks.exe",
-                "handle.exe",
-                "hex2dec.exe",
-                "junction.exe",
-                "ldmdump.exe",
-                "Listdlls.exe",
-                "livekd.exe",
-                "LoadOrd.exe",
-                "LoadOrdC.exe",
-                "logonsessions.exe",
-                "movefile.exe",
-                "notmyfault.exe",
-                "notmyfaultc.exe",
-                "ntfsinfo.exe",
-                "pendmoves.exe",
-                "pipelist.exe",
-                "portmon.exe",
-                "procdump.exe",
-                "procexp.exe",
-                "Procmon.exe",
-                "PsExec.exe",
-                "psfile.exe",
-                "PsGetsid.exe",
-                "PsInfo.exe",
-                "pskill.exe",
-                "pslist.exe",
-                "PsLoggedon.exe",
-                "psloglist.exe",
-                "pspasswd.exe",
-                "psping.exe",
-                "PsService.exe",
-                "psshutdown.exe",
-                "pssuspend.exe",
-                "RAMMap.exe",
-                "RDCMan.exe",
-                "RegDelNull.exe",
-                "regjump.exe",
-                "ru.exe",
-                "sdelete.exe",
-                "ShareEnum.exe",
-                "ShellRunas.exe",
-                "sigcheck.exe",
-                "streams.exe",
-                "strings.exe",
-                "sync.exe",
-                "Sysmon.exe",
-                "Tcpvcon.exe",
-                "Tcpview.exe",
-                "Testlimit.exe",
-                "vmmap.exe",
-                "Volumeid.exe",
-                "whois.exe",
-                "Winobj.exe",
-                "ZoomIt.exe"
-            ],
-            "shortcuts": [
-                [
-                    "AccessEnum.exe",
-                    "SysInternals/AccessEnum - View accesses to directories, files and registry keys",
-                    "/accepteula"
-                ],
-                [
-                    "AdExplorer.exe",
-                    "SysInternals/AdExplorer - Active Directory viewer and editor",
-                    "/accepteula"
-                ],
-                [
-                    "AdInsight.exe",
-                    "SysInternals/AdInsight - An LDAP real-time monitoring tool",
-                    "/accepteula"
-                ],
-                [
-                    "Autologon.exe",
-                    "SysInternals/Autologon - Bypass password screen during logon",
-                    "/accepteula"
-                ],
-                [
-                    "autoruns.exe",
-                    "SysInternals/Autoruns - View startup programs and processes"
-                ],
-                [
-                    "Bginfo.exe",
-                    "SysInternals/BGInfo - Wallpaper text configurator",
-                    "/accepteula"
-                ],
-                [
-                    "CACHESET.EXE",
-                    "SysInternals/CacheSet - Control the Cache Manager's working set size",
-                    "/accepteula"
-                ],
-                [
-                    "Dbgview.exe",
-                    "SysInternals/DebugView - View OutputDebugString and DbgPrint output",
-                    "/accepteula"
-                ],
-                [
-                    "Desktops.exe",
-                    "SysInternals/Desktops - Create up to four virtual desktops",
-                    "/accepteula"
-                ],
-                [
-                    "Disk2vhd.exe",
-                    "SysInternals/Disk2vhd - Create VHD files from online disk",
-                    "/accepteula"
-                ],
-                [
-                    "Diskmon.exe",
-                    "SysInternals/DiskMon - Disk activity monitor",
-                    "/accepteula"
-                ],
-                [
-                    "DiskView.exe",
-                    "SysInternals/DiskView - Graphical disk sector utility",
-                    "/accepteula"
-                ],
-                [
-                    "LOADORD.EXE",
-                    "SysInternals/LoadOrder - See the order in which devices are loaded",
-                    "/accepteula"
-                ],
-                [
-                    "NotMyFault.exe",
-                    "SysInternals/NotMyFault - Crash, hang, and cause kernel memory leaks",
-                    "/accepteula"
-                ],
-                [
-                    "PORTMON.EXE",
-                    "SysInternals/PortMon - Serial and parallel port activity monitor",
-                    "/accepteula"
-                ],
-                [
-                    "procexp.exe",
-                    "SysInternals/ProcessExplorer - Enhanced Task Manager",
-                    "/accepteula"
-                ],
-                [
-                    "ProcMon.exe",
-                    "SysInternals/ProcessMonitor - Monitor file system, registry, process, thread and DLL activity",
-                    "/accepteula"
-                ],
-                [
-                    "RAMMap.exe",
-                    "SysInternals/RAMMap - Graphical display of memory usage",
-                    "/accepteula"
-                ],
-                [
-                    "RDCMan.exe",
-                    "SysInternals/RDCMan - Remote Desktop Connection Manager"
-                ],
-                [
-                    "ShareEnum.exe",
-                    "SysInternals/ShareEnum - View network shares",
-                    "/accepteula"
-                ],
-                [
-                    "Tcpview.exe",
-                    "SysInternals/TcpView - List TCP UDP endpoints",
-                    "/accepteula"
-                ],
-                [
-                    "vmmap.exe",
-                    "SysInternals/VMMap - View Virtual and Physical Memory",
-                    "/accepteula"
-                ],
-                [
-                    "Winobj.exe",
-                    "SysInternals/Winobj - Object Manager namespace viewer",
-                    "/accepteula"
-                ],
-                [
-                    "ZoomIt.exe",
-                    "SysInternals/ZoomIt - Screen magnifier for zooming and drawing on the screen",
-                    "/accepteula"
-                ]
-            ]
+        "64bit": {
+            "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
+            "hash": "1284b653340c60086399c4e57b5a42ffef6b55415cf0a28e305b77750392ac32"
         }
     }
 }
