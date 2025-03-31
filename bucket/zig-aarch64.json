@@ -1,5 +1,5 @@
 {
-    "version": "0.15.0-dev.151",
+    "version": "0.15.0-dev.155",
     "description": "General-purpose programming language designed for robustness, optimality, and maintainability.",
     "homepage": "https://ziglang.org/",
     "license": "MIT",
@@ -8,9 +8,9 @@
     },
     "architecture": {
         "arm64": {
-            "url": "https://ziglang.org/builds/zig-windows-aarch64-0.15.0-dev.151+6e8493daa.zip",
-            "hash": "112b600aad9c1403354a896f601785a0914ffa1f0aa07a9493120b92fb2da604",
-            "extract_dir": "zig-windows-aarch64-0.15.0-dev.151+6e8493daa"
+            "url": "https://ziglang.org/builds/zig-windows-aarch64-0.15.0-dev.155+acfdad858.zip",
+            "hash": "7c1567210be7f8218e4462e0b8b391b0bff2a7eaf994eaaf7a20b928871d8e20",
+            "extract_dir": "zig-windows-aarch64-0.15.0-dev.155+acfdad858"
         }
     },
     "bin": "zig.exe",
