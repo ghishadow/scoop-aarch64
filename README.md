@@ -1,3 +1,6 @@
+> [!CAUTION]
+> As my Windows on aarch64 machine is broken, i am not testing this repo anymore
+
 # Scoop Aarch64
 
 <!-- Uncomment the following line after replacing placeholders -->
